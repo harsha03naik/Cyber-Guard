@@ -1,0 +1,25 @@
+// File: CyberGuard/build.gradle
+
+buildscript {
+    repositories {
+        google()         // Google's Maven repository (required for Android plugin)
+        mavenCentral()   // Maven Central (required for Kotlin and others)
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.10.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.21'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Optional: if using custom tasks or modules
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

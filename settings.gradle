@@ -1,0 +1,11 @@
+// File: CyberGuard/settings.gradle
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "CyberGuard"
+include ':app'
