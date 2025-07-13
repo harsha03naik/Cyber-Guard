@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="28dp"/>
+            <stroke android:width="3dp"
+                android:color="@drawable/dialog_gradient_stroke"/>
+        </shape>
+    </item>
+    <item android:left="3dp" android:top="3dp" android:right="3dp" android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#F9F9FC"/>
+            <corners android:radius="25dp"/>
+        </shape>
+    </item>
+</layer-list> 

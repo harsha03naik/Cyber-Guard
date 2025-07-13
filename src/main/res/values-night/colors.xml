@@ -1,0 +1,33 @@
+<resources>
+    <color name="threat_card_bg">#1E1E1E</color>
+    <color name="threat_title">#FFFFFF</color>
+    <color name="threat_description">#AAAAAA</color>
+    <color name="app_name_dark">#00FFF7</color>
+    
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_hint">#808080</color>
+    <color name="text_disabled">#666666</color>
+    <color name="text_on_primary">#000000</color>
+    <color name="text_on_secondary">#000000</color>
+    <color name="text_on_surface">#FFFFFF</color>
+    <color name="text_on_background">#FFFFFF</color>
+    
+    <color name="background_primary">#121212</color>
+    <color name="background_secondary">#1E1E1E</color>
+    <color name="surface_color">#1E1E1E</color>
+    <color name="card_surface">#2D2D2D</color>
+    
+    <color name="accent_primary">#BB86FC</color>
+    <color name="accent_secondary">#03DAC5</color>
+    <color name="accent_error">#F44336</color>
+    <color name="accent_success">#4CAF50</color>
+    <color name="accent_warning">#FF9800</color>
+    
+    <color name="card_background_start">#2D2D2D</color>
+    <color name="card_background_end">#1E1E1E</color>
+    <color name="icon_background">#2D2D2D</color>
+    <color name="dialog_background_center">#1E1E1E</color>
+    <color name="dialog_background_edge">#121212</color>
+    <color name="quizCardBg">#2D2D2D</color>
+</resources>

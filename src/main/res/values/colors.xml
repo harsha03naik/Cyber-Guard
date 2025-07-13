@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_100">#E1BEE7</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="quiz_primary">#6200EE</color>
+    <color name="quiz_secondary">#03DAC5</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="gray">#808080</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_600">#757575</color>
+
+    <color name="card_background_start">#F5F5F5</color>
+    <color name="card_background_end">#FFFFFF</color>
+    <color name="icon_background">#E8EAF6</color>
+
+    <color name="dialog_background_center">#FFFFFF</color>
+    <color name="dialog_background_edge">#F1F1F1</color>
+
+    <color name="quizCardStroke">#D500F9</color>
+    <color name="quizCardBg">#EDE7F6</color>
+
+    <color name="app_name_light">#00FFF7</color>
+    <color name="app_name_dark">#FF00C3FF</color>
+    
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_disabled">#BDBDBD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#000000</color>
+    <color name="text_on_surface">#000000</color>
+    <color name="text_on_background">#000000</color>
+    
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F5F5F5</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="card_surface">#FFFFFF</color>
+    
+    <color name="accent_primary">#6200EE</color>
+    <color name="accent_secondary">#03DAC5</color>
+    <color name="accent_error">#F44336</color>
+    <color name="accent_success">#4CAF50</color>
+    <color name="accent_warning">#FF9800</color>
+</resources>

@@ -1,0 +1,75 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="20dp"
+    android:background="@drawable/dialog_gradient_border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:animation="@anim/fade_in_scale">
+
+        <FrameLayout
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/icon_background_shape"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:id="@+id/dialog_threat_icon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                app:tint="@color/purple_500" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/dialog_threat_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-medium"
+            android:text="Malware"
+            android:textColor="@color/purple_700"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+
+        <TextView
+            android:id="@+id/dialog_threat_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            style="@style/Widget.MaterialComponents.Button"
+            app:cornerRadius="32dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="OK"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView> 

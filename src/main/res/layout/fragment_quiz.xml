@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/levelSelectionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Quiz Level"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:textColor="?attr/colorOnBackground" />
+
+        <Button
+            android:id="@+id/beginnerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beginner"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/intermediateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intermediate"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/expertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expert" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quizContentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question text will appear here"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="?attr/colorOnBackground" />
+
+        <LinearLayout
+            android:id="@+id/optionsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1 of 10"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorOnBackground"
+            android:alpha="0.7" />
+
+        <LinearLayout
+            android:id="@+id/explanationBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/explanation_box_bg"
+            android:padding="16dp"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/explanationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explanation will appear here"
+                android:textSize="16sp"
+                android:textColor="?attr/colorOnSurface" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/restartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restart"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout> 
